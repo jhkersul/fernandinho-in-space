@@ -2,13 +2,13 @@
   "name": "fernandinho-in-space",
   "version": "1.0.0",
   "description": "Best game in the world!",
-  "main": "main.js",
+  "main": "index.html",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
     "start": "serve",
-    "deploy": "now --public && now alias fernandinho-in-space"
+    "deploy": "now --public ./public && now alias fernandinho-in-space"
   },
   "author": "",
   "license": "GPL-3.0-or-later",
